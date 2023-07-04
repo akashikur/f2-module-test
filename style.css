@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: white;
+}
+form {
+  width: 100%;
+}
+form input {
+  font-size: 24px;
+  margin: 20px;
+  background: #000;
+  color: gray;
+  width: 450px;
+  height: 48px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+}
+button {
+  font-size: 24px;
+  margin: 20px;
+  background: white;
+  color: black;
+  width: 536px;
+  border: none;
+  height: 48px;
+}
+.search input {
+  width: 90%;
+  height: 48px;
+  font-size: 24px;
+  padding: 20px;
+  margin: 20px;
+  background: #000;
+  color: gray;
+  border: 1px solid #ffffff;
+}
+table {
+  width: 90%;
+  margin-left: 20px;
+  border-collapse: collapse;
+  border-color: #ffffff;
+}
+th {
+  font-size: 19px;
+  font-weight: 100;
+  padding: 10px;
+}
+tr td {
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px;
+}
+span {
+  float: right;
+  padding-left: 20px;
+  cursor: pointer;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
